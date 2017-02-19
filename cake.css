@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 20px;
+    color: #444444;
+    margin: 0;
+}
+
+.flex-container, .summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ingredients {
+    width: 20vw;
+}
+
+.recipe {
+    width: 40vw;
+    padding: 0 40px;
+}
+
+hr  {
+    margin: 20px 0;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+header {
+    background-image: url('cake.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 150px 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1, header h2 {
+    color: #eeeeee;
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 26px;
+    display: block;
+    font-weight: 400;
+    }
+
+.header-overlay {
+    padding: 40px 60px;
+    background-color: rgba(225, 205, 205, 0.4);
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.summary {
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 2px #eeeeee;
+}
+
+.summary div {
+    border-left: 1px solid #eeeeee;
+    padding: 10px 30px;
+}
+
+.summary div:last-child {
+    border-right: 1px solid #eeeeee;
+}
+
+i {
+    margin-right: 10px;
+    color: #bbbbbb;
+}
